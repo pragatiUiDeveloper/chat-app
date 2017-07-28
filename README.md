@@ -1,3 +1,2 @@
 # chat-app
-
-a [Sails](http://sailsjs.org) application
+a chat application based on sails deployed on heroku
