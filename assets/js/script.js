@@ -1,6 +1,6 @@
 var myapp=angular.module('Platzi',[]);
 var connections=[];
-myapp.controller('BaseCtrl',function($scope,$http){
+myapp.controller('BaseCtrl',["$scope","$http"],function($scope,$http){
 
   $scope.textArray=[];
   $scope.sendMessage=function(){
