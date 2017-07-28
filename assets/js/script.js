@@ -16,7 +16,7 @@ myapp.controller('BaseCtrl',function($scope,$http){
     $scope.textArray=data;
     $scope.$apply();
     return true;
-  });
+  }); 
 
   io.socket.on('texts',function(event){
     switch(event.verb){
