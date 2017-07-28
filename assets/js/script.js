@@ -1,6 +1,6 @@
-var myapp=angular.module('Platzi',[]);
+var myapp=angular.module('myapp',[]);
 var connections=[];
-myapp.controller('BaseCtrl',["$scope","$http"],function($scope,$http){
+myapp.controller('BaseCtrl',["$scope","$http",function($scope,$http){
 
   $scope.textArray=[];
   $scope.sendMessage=function(){
@@ -67,4 +67,4 @@ var emojis =[
   },
   ];
   $scope.emojis=emojis;*/
-});
+}]);
