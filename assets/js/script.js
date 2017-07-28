@@ -32,7 +32,7 @@ myapp.controller('BaseCtrl',function($scope,$http){
   });
 
 
-/*  io.socket.get('/emoji',function(data){
+  io.socket.get('/emoji',function(data){
   	$scope.emojis=data;
   	$scope.$apply();
   });
@@ -44,9 +44,9 @@ myapp.controller('BaseCtrl',function($scope,$http){
   		$scope.$apply();
   		break;
   	}
-  });
+  }); 
 
- 
+/* 
   
 var emojis =[
   {
